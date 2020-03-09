@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+.container{
+    width: 98%;
+    height: 1650px;
+    background-color: #4E5C4B;
+    margin: auto;
+}
+
+.header{
+    width: 95%;
+    height: 120px;
+    margin: auto;
+    padding: 10px;
+}
+
+.primario{
+    background-color: yellow;
+    width: 40%;
+    height: 110px;;
+    border-radius: 10px;
+}
+
+.enviroment{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 2px 4px 6px grey;
+}
+
+.company{
+    float: right;
+    margin-top: -60px;
+    margin-right: 55px;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px grey;
+}
+
+.secundario{
+    background-color: yellow;
+    width: 50%;
+    height: 70px;
+    float: right;
+    margin-top: -115px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.menu li{
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    font-size: 20px;
+	font-weight: bold;
+	color: black;
+    text-shadow: 2px 4px 6px grey;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.fondo1{
+    width: 97%;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.imagen1{
+    background-image: url(img/dragon.jpg);
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+
+.descripcion-imagen1{
+     background-color: rgb(0,0,0,0.8);
+     width: 100%;
+     height: 200px;
+     margin: auto;
+     position: relative;
+     top: -60px;
+     transition: all 300ms;
+}
+
+.anime{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 4px 6px grey;
+	font-weight: bold;
+}
+
+.descripcion-imagen1:hover{
+    top: -200px;
+    cursor: pointer;
+}
+
+.contenido{
+    width: 97%;
+    height: 500px;
+    margin: 10px auto;
+}
+
+.links{
+    width: 30%;
+    height: 492px;
+    padding: 4px;
+}
+
+.articulo{
+    background-color:yellow;
+    padding: 1.4em;
+    width: 80%;
+    height: 35px;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.letra{
+ text-decoration:none;
+ font-size: 20px;
+ text-shadow:2px 4px 6px grey ;
+ font-weight: bold;
+ color: black;
+ padding: 0.5em;
+}
+
+.letra:hover{
+    background-color: red;
+    border-radius: 5px;;
+}
+
+
+
+.links-mostrar{
+    width: 60%;
+    height: 500px;
+    float: right;
+    margin-top: -500px;
+}
+
+.fondo2{
+    width: 97%;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imagen2{
+    background-image: url(img/dragon.jpg);
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+
+.descripcion-imagen2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0,0.8);
+    top: -55px;
+    position: relative;
+    transition: all 300ms;
+
+}
+
+.animes2{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 6px grey;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descripcion-imagen2:hover{
+     top: -200px;
+     cursor: pointer;
+}
+
+.cards{   
+    width: 97%;
+    height: 550px;
+    margin: 1em auto;
+    padding: 1px;
+}
+
+.card{
+    width: 285px;
+    height: 530px;
+    border: 1px rgba(0,0,0,0.3);
+    background-color: white;
+    box-shadow: rgb(0,0,0,0.5) 3px 3px 3px;
+    margin: 10px;
+    transition: all 300ms;
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: rgb(0,0,0,0.5) 13px 13px 13px;
+}
+
+.barra-superior{
+    width: 285px;
+    height: 10px;
+    background-color: green;
+}
+
+.blue{
+    width: 95px;
+    height: 10px;
+    float: left;
+    background-color: blue;
+}
+
+.red{
+    width: 95px;
+    height: 10px;
+    float: right;
+    background-color: red;
+}
+
+.fondo{
+    width: 285px;
+    height: 190px;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.img1{
+    width: 285px;
+    height: 190px;
+    background-image: url(img/dragon.jpg);
+    background-size: center;
+    background-size: cover;
+}
+
+.img2{
+    width: 285px;
+    height: 190px;
+    background-image: url(img/inuyasha.jpg);
+    background-size: center;
+    background-size: cover;
+}
+
+.img3{
+    width: 285px;
+    height: 190px;
+    background-image: url(img/naruto.jpg);
+    background-size: center;
+    background-size: cover;
+}
+
+.img4{
+    width: 285px;
+    height: 190px;
+    background-image: url(img/inuyasha.jpg);
+    background-size: center;
+    background-size: cover;
+}
+
+.contenido-card{
+    width: 285px;
+    height: 190px;
+    background-color: rgb(0,0,0,0.3);
+    position: relative;
+    top: -25px;
+    color: white;
+    text-align: center;
+    transition: all 300ms;
+
+}
+
+.contenido-card:hover{
+    top: -190px;
+    cursor: pointer;
+}
+
+.descripcion{
+    text-align: justify;
+    padding: 10px;
+}
+
+.btn-card{
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(0,0,0,0.5) 3px 3px 3px 3px;
+    border: 0px rgba(0,0,0,0.5);
+    background-color: rosybrown;
+    transition: all 300ms;
+}
+
+.btn-card:hover{
+    transform: translateY(-5px);
+    box-shadow: rgb(0,0,0,0.5) 8px 8px 8px 8px;
+}
+
+.barra-inferior{
+	width: 0px;
+	height: 10px;
+    background-color: black;
+    transition: all 300ms;
+}
+
+.card:hover .barra-inferior{
+    width: 285px;
+}
+
+.card:active .barra-inferior{
+    background-color: red;
+}

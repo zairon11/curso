@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pagina 4</title>
+    <link rel="shortcut icon" href="img/home.png" type="image/x-icon">
+</head>
+<body>
+        <table border="2" width="65%" align="center" bgcolor="green">
+            <tr>
+                <td>
+                    nombre:
+                </td>
+                <td>
+                    <input type="text" name="nombre">
+                </td>
+                <td>
+                    apellidos:
+                </td>
+                <td>
+                    <input type="text" name="apellidos">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="4">
+                    direccion: <input type="text" name="direccion">
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">
+                    EDAD: <br>
+                    menor de 18 años<input type="radio" name="a" value="menor"> <br>
+                    entre 18 y 30 <input type="radio" name="a" value="intermedio"> <br>
+                    entre 31 y 45 <input type="radio" name="a" value="inter"><br>
+                    mayor de 45 <input type="radio" name="a" value="mayor"> 
+                </td>
+
+                <td colspan="3">
+                    musica <input type="checkbox" name="musica" value="musica">
+                    deporte <input type="checkbox"  name="deporte" value="deporte">
+                    lectura <input type="checkbox" name="lectura" value="lectura">
+                    actor <input type="checkbox" name="actor" value="actor">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    comentarios: <br>
+                    <textarea name="" id="" cols="20" rows="5"></textarea>
+                </td>
+                <td>
+                    nacionalidad:
+                    <select name="nacion" id="">
+                        <option value="españa">españa</option>
+                        <option value="madrid">madrid</option>
+                        <option value="barcelona">barcelona</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="enviar">
+                </td>
+                <td align="center">
+                    <input type="submit" name="borrar">
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

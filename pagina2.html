@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pagina 2</title>
+    <link rel="shortcut icon" href="img/star.jpg" type="image/x-icon">
+</head>
+<body>
+    <table align="center" border="2px" width="50%">
+        <tr>
+            <td bgcolor="brown">
+                <h3 align="right"><font color="yellow">INGRESE DATOS</font></h3>
+            </td>
+        </tr>
+
+        <tr>
+            <td bgcolor="red" height="40px"></td>  
+        </tr>
+
+        <tr>
+            <td bgcolor="brown">
+                <form action="nombre" method="get">
+                    nombre:<input type="text" name="nombre" size="20px"> <br>
+                    e-mail: <input type="text"name="e-mail" size="20px">
+                </form>
+
+                desea recibir informacion de algo:
+                <form action="internet" method="get">
+                    <input type="checkbox" name="internet">internet
+                    <input type="checkbox" name="programacion">programacion
+                    <input type="checkbox" name="sistemas">sistemas
+                    <input type="checkbox" name="paginas">pagina wweb
+                </form>
+
+                te conectas de casa:
+                <form action="casa" method="get">
+                    <input type="radio"name="si" value="si">si
+                    <input type="radio" name="si" value="no">no
+                </form>
+
+                que uso le das a tu ordenador..?
+                <form action="uso" method="get">
+                    uso: <br>
+                    <select name="uso" id="">
+                        <option value="profesional">profesional</option>
+                        <option value="domestico">domestico</option>
+                        <option value="juegos">juegos</option>
+                    </select>
+                </form>
+
+                acaracteristicas de tu pc: <br>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
